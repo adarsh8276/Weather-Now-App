@@ -129,7 +129,7 @@ export default function Weather() {
 
   return (
     <motion.div
-      className={`min-h-screen flex flex-col items-center justify-center text-white transition-all duration-700 ${
+      className={`min-h-screen w-full flex flex-col items-center justify-center text-white transition-all duration-700 ${
         ui
           ? `bg-gradient-to-br ${ui.bg}`
           : "bg-gradient-to-br from-sky-400 to-indigo-600"
